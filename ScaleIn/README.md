@@ -1,0 +1,3 @@
+## Description
+The purpose of ScaleIn policy for ASG is to only increase the instances when the diskspace is used beyond certain threashold.This is usefull if we are working with e.g Elasticsearch clusters where data is continously comming and with increase in data we can increase the number of instances.
+This stack will by deafult create three instances and if diskspace on average is above then 40% by default then it'll raise an alarm which will inturn increase the instances on-by-one untill alarm is off.
