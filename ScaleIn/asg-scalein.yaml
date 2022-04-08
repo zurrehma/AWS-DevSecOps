@@ -37,9 +37,8 @@ Parameters:
     Type: String
 
   ImageIDForASGNodes:
-    Description: Image/AMI ID to use when deploying ASG instances. Default is set to Ubuntu in Ireland Region
+    Description: Image/AMI ID to use when deploying ASG instances.
     Type: String
-    Default: ami-58d7e821
 
 
 
